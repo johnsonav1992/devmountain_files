@@ -66,7 +66,6 @@ let rain = true;
 
 //CODE HERE
 
-
 ////////// PROBLEM 8 //////////
 
 let score = 0;
