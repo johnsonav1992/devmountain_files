@@ -14,16 +14,11 @@ function smallestAndLargest(array) {
 
         if (array[i] < smallest ) {
             smallest = array[i]
-        }
-    }
-    result.push(smallest)
-    
-    for(let i = 0; i < array.length; i++) {
-
-        if (array[i] > largest) {
+        } else if (array[i] > largest) {
             largest = array[i]
         }
     }
+    result.push(smallest)
     result.push(largest)
 
     return result
