@@ -264,3 +264,61 @@ for (let i = 1; i <= 100; i++) {
       console.log("mountain")
   } else console.log(i)
 }
+
+/////////EXTRA CHALLENGES////////////
+
+function rotateArray(arr, rotateNum) {
+
+  let result = []
+
+  if (rotateNum <= 0) return "Cannot rotate!"
+
+  for (i = rotateNum; i > 0; i--) {
+    let last = arr.pop()
+    arr.unshift(last)
+  }
+
+  return console.log(arr)
+}
+
+let array1 = [2, 6, 4, 78, 2]
+let rotation = 2
+
+rotateArray(array1, rotation)
+
+// Print values and sum
+// Given this array
+// Let testArray = [6,3,4,1,2,4]
+
+// 1. Print each array value and the sum so far
+// 2. The expected output will be: 
+
+// Num 6, Sum 6
+// Num 3, Sum 9
+// Num 5, Sum 14
+// Num 1, Sum 15
+// Num 2, Sum 17
+// Num 4, Sum 21
+
+// for (let i = 0; i < testArray.length; i++) {
+
+// }
+
+let testArray = [6,3,4,1,2,4]
+let sum = 0
+
+// for (i = 0; i < testArray.length; i++){
+//   sum += testArray[i];
+//   console.log(`Num: ${testArray[i]} Sum: ${sum}`)
+// }
+
+/////OR (for fun) //////
+
+testArray.forEach((number) => {
+  sum += number
+  return console.log(`Num: ${number}, Sum: ${sum}`)
+})
+
+
+
+
