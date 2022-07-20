@@ -16,10 +16,10 @@ console.log(result)
 
 ////// LOOP Version //////
 
-function checkPalindrome(string) {
+function checkPalindrome(str) {
 
     // find the length of a string
-    const strLen = string.length;
+    const strLen = str.length;
 
     // loop through half of the string
     for (let i = 0; i < strLen / 2; i++) {
@@ -27,7 +27,7 @@ function checkPalindrome(string) {
         // check if first and last string are same
         // if current letter is not equal to 
         // opposite letter on the other side of string
-        if (string[i] !== string[(strLen - 1) - i]) {
+        if (str[i] !== str[(strLen - 1) - i]) {
             return false;
         }
     }
