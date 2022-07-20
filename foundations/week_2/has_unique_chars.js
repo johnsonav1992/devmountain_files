@@ -24,4 +24,3 @@ function hasUniqueCharsAlt(str) {
 console.log(hasUniqueCharsAlt("Monondaydam"))
 
 
-
