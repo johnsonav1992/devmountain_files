@@ -1,7 +1,7 @@
 function hasMoreVowels(word) {
     let vowelsArr = ['a', 'e', 'i', 'o', 'u']
 
-    let vowelsOnly = Array.from(word).filter((letter) => vowelsArr.includes(letter))
+    let vowelsOnly = Array.from(word.toLowerCase()).filter((letter) => vowelsArr.includes(letter))
 
     return vowelsOnly.length > (word.length / 2)
 }
