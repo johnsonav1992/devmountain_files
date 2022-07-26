@@ -1,0 +1,85 @@
+:root {
+    --header-height: 15vh;
+    --section-height: 400px;
+    --logo-height-width: calc(var(--header-height)/1.75);
+    --blue-color: #5B8FDC;
+    --teal-color: #7BE0C3;
+    --lime-green-color: #C2E791;
+    --yellow-color: #F5E752;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: var(--header-height);
+    background-color: lightgrey;
+}
+
+.header .logo {
+    height: var(--logo-height-width);
+    width: var(--logo-height-width);
+    background-color: var(--blue-color);
+    margin-left: 20px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(var(--header-height)*2.75);
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.article .p1 {
+    padding-bottom: 20px;
+}
+
+.blue {
+    height: calc(var(--header-height)*2);
+    width: 100vw;
+    background-color: var(--blue-color);
+}
+
+.teal {
+    height: calc(var(--header-height)*2);
+    width: 100vw;
+    background-color: var(--teal-color);
+}
+
+.lime-green {
+    height: calc(var(--header-height)*2);
+    width: 100vw;
+    background-color: var(--lime-green-color);
+}
+
+.yellow {
+    height: calc(var(--header-height)*2);
+    width: 100vw;
+    background-color: var(--yellow-color);
+}
+
+.question-button {
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    right: 3px;
+    bottom: 3px;
+}
+
+.question-button:hover {
+    cursor: pointer;
+}

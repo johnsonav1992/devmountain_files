@@ -1,0 +1,31 @@
+:root {
+    --header-footer-color: #454544;
+    --body-color: #d9d9d8;
+    --main-color: #efefef;
+    --header-height: 20vh;
+    --main-height: calc(100vh - var(--header-height));
+}
+body {
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: var(--header-height);
+    background-color: var(--header-footer-color);
+}
+
+.main {
+    background-color: var(--main-color);
+    height: var(--main-height);
+    width: 80vw;
+}
+
+.footer {
+    background-color: var(--header-footer-color);
+    height: 10vh;
+    width: 80vw;
+}
