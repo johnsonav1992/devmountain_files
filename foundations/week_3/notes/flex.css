@@ -1,0 +1,77 @@
+/* body {
+    height: 300vh;
+}
+
+div {
+	display: inline;
+    background-color: orange;
+}
+
+#hello-world {
+	background-color: purple;
+}
+
+.lecture-content {
+	background-color: blue;
+}
+
+#ids {
+    background-color: green;
+}
+
+#position-article {
+    width: 20rem;
+    height: 20rem;
+}
+
+#article-image {
+    width: 50%;
+    height: 50%;
+} */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flex-boxes {
+    border: 4px solid black;
+}
+
+.flex-boxes {
+    width: 20vw;
+    height: 20vh;
+    background-color: red;
+}
+
+#red {
+    display: flex;
+    justify-content: space-between;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+.inner-flex-boxes {
+    width: 5vw;
+    height: 5vh;
+}
+#purple {
+    background-color: purple;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#black {
+    background-color: black;
+}

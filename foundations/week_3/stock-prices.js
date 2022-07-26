@@ -4,7 +4,7 @@ function best(stockPrices) {
 
 	stockPrices.forEach(price => {
 		let profit = price - lowestPrice
-		
+
 		if (price < lowestPrice) {
 			lowestPrice = price
 		}
