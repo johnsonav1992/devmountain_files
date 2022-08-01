@@ -22,8 +22,7 @@ app.post('/api/magicSet', (req, res) => {
     res.send(req.body)
 })
 
-app.put('/api/magicSet/:set_id', (req, res) => {
-    console.log(req.params.set_id)
+app.put('/api/magicSet/:setId', (req, res) => {
     const set = magicSet.find(setObj => {
         setObj.id === parseInt(req.params.setId)
     })
