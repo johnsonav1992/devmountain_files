@@ -1,0 +1,23 @@
+/////// How to Start an Express Project ////////
+
+
+npm init -y (-y skips the questions)
+install your dependencies
+npm i express cors
+make a gitignore file - add things (/node_modules)
+make server file
+
+///Boilerplate
+const express = require('express') //getting our express function
+const cors = require('cors') // getting cors dependency 
+const app = express() //setting app to the invocation of express function
+
+app.use(express.json()) //allows JSON to be accepted
+app.use(cors()) // use cors
+
+app.listen(8000, () => {
+    console.log("We are live!")
+}) //puts our server live on a specific port
+-----------------------------------------------------
+
+
