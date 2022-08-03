@@ -2,7 +2,7 @@ body {
     background-image: url("https://static.onecms.io/wp-content/uploads/sites/6/2015/12/star-wars-crawl-02.jpg");
     background-blend-mode: lighten;
     background-repeat: no-repeat;
-    background-size: 170vmax; 
+    background-size: cover; 
     color: yellow;
     font-weight: bold;
     font-family: sans-serif;
