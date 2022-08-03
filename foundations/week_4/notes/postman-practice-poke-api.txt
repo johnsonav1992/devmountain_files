@@ -1,0 +1,31 @@
+Write queries to pokeAPI!
+No shortcuts! 
+Write out the steps you would need to take to get there if you didn't know anything about Pokemon.
+Write the queries you made to the pokeAPI to get to the information.
+
+Get Gengar, what generation was it introduced in?
+https://pokeapi.co/api/v2/pokemon/gengar
+generation-i red-blue 
+
+Get Gardevoir, what type is it?
+https://pokeapi.co/api/v2/pokemon/gardevoir
+psychic - https://pokeapi.co/api/v2/type/14/ 
+
+Get electric type, what are its weaknesses?
+https://pokeapi.co/api/v2/type/electric
+flying, steel, electric (half)
+ground (double)
+
+What is the evolution chain for Gothita?
+
+
+What is the order number for the pokemon Magikarp evolves into?
+
+
+What are the weaknesses of the 2 types of the Pokemon that is Torchic's final evolution?
+Or, more simply:
+What is Torchic's final evolution?
+
+What are its types?
+
+What the weaknesses of each of those types?
