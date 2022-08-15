@@ -17,6 +17,7 @@ function getAllClients() {
     axios.get('http://localhost:8765/clients')
         .then(res => {
             res.data.forEach(client => {
+                console.log(res.data)
                 const clientCard = makeClientCard(client)
 
                 clientList.innerHTML += clientCard
