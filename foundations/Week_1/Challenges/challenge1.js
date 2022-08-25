@@ -15,3 +15,4 @@ function maxOfTwo (num1, num2) {
 }
 
 console.log(maxOfTwo(x, y)) 
+
